@@ -171,8 +171,8 @@ metadata:
 spec:
   triggers:
     - bindings:
-        name: manual-pipeline-binding
-        name: manual-pipeline-binding1
+        - name: manual-pipeline-binding
+        - name: manual-pipeline-binding1
       template:
         name: pipeline-template
       params:
