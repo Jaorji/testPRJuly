@@ -149,6 +149,8 @@ spec:
   params:
     - name: gitowner
       value: bog
+    - name: envowner
+      value: $(params.ENV_OWNER)
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: EventListener
